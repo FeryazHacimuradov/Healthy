@@ -26,8 +26,15 @@ using One_HealthyV2._0.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/faryaz/Desktop/One-HealthyV2.0/One-HealthyV2.0/Views/_ViewImports.cshtml"
+using One_HealthyV2._0.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6e9023432a6e2c984a1bb57765965521b0975588", @"/Views/News/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7cc81c6a456bb7893d7ece0ee640738f1f6543bf", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"98e33c2a5e1948aadb8f7b4ec15aef2ec5cfbf88", @"/Views/_ViewImports.cshtml")]
     public class Views_News_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("action", new global::Microsoft.AspNetCore.Html.HtmlString("#"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -358,7 +365,7 @@ using One_HealthyV2._0.Models;
                     <div class=""sidebar-block"">
                         <h3 class=""sidebar-title"">Search</h3>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e9023432a6e2c984a1bb57765965521b097558819813", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e9023432a6e2c984a1bb57765965521b097558820002", async() => {
                 WriteLiteral(@"
                             <div class=""form-group"">
                                 <input type=""text"" class=""form-control"" placeholder=""Type a keyword and hit enter"">

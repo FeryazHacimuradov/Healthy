@@ -26,8 +26,15 @@ using One_HealthyV2._0.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/faryaz/Desktop/One-HealthyV2.0/One-HealthyV2.0/Views/_ViewImports.cshtml"
+using One_HealthyV2._0.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f400a24e4f1c1f8dbc87c0f761266a45e781e06b", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7cc81c6a456bb7893d7ece0ee640738f1f6543bf", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"98e33c2a5e1948aadb8f7b4ec15aef2ec5cfbf88", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

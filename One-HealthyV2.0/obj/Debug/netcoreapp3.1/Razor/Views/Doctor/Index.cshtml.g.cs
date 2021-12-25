@@ -26,8 +26,15 @@ using One_HealthyV2._0.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/faryaz/Desktop/One-HealthyV2.0/One-HealthyV2.0/Views/_ViewImports.cshtml"
+using One_HealthyV2._0.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c00d08fd8e6a7723e71f205a344d75bddbe3f91f", @"/Views/Doctor/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7cc81c6a456bb7893d7ece0ee640738f1f6543bf", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"98e33c2a5e1948aadb8f7b4ec15aef2ec5cfbf88", @"/Views/_ViewImports.cshtml")]
     public class Views_Doctor_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Doctor>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("value", "general", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -168,7 +175,7 @@ WriteAttributeValue("", 1285, item.Image, 1285, 11, false);
         <h1 class=""text-center wow fadeInUp"">Make an Appointment</h1>
 
         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00d08fd8e6a7723e71f205a344d75bddbe3f91f9261", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00d08fd8e6a7723e71f205a344d75bddbe3f91f9450", async() => {
                 WriteLiteral(@"
             <div class=""row mt-5 "">
                 <div class=""col-12 col-sm-6 py-2 wow fadeInLeft"">
@@ -183,7 +190,7 @@ WriteAttributeValue("", 1285, item.Image, 1285, 11, false);
                 <div class=""col-12 col-sm-6 py-2 wow fadeInRight"" data-wow-delay=""300ms"">
                     <select name=""departement"" id=""departement"" class=""custom-select"">
                         ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00d08fd8e6a7723e71f205a344d75bddbe3f91f10316", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00d08fd8e6a7723e71f205a344d75bddbe3f91f10505", async() => {
                     WriteLiteral("General Health");
                 }
                 );
@@ -199,7 +206,7 @@ WriteAttributeValue("", 1285, item.Image, 1285, 11, false);
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00d08fd8e6a7723e71f205a344d75bddbe3f91f11554", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00d08fd8e6a7723e71f205a344d75bddbe3f91f11743", async() => {
                     WriteLiteral("Cardiology");
                 }
                 );
@@ -215,7 +222,7 @@ WriteAttributeValue("", 1285, item.Image, 1285, 11, false);
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00d08fd8e6a7723e71f205a344d75bddbe3f91f12788", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00d08fd8e6a7723e71f205a344d75bddbe3f91f12977", async() => {
                     WriteLiteral("Dental");
                 }
                 );
@@ -231,7 +238,7 @@ WriteAttributeValue("", 1285, item.Image, 1285, 11, false);
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00d08fd8e6a7723e71f205a344d75bddbe3f91f14018", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00d08fd8e6a7723e71f205a344d75bddbe3f91f14207", async() => {
                     WriteLiteral("Neurology");
                 }
                 );
@@ -247,7 +254,7 @@ WriteAttributeValue("", 1285, item.Image, 1285, 11, false);
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00d08fd8e6a7723e71f205a344d75bddbe3f91f15251", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00d08fd8e6a7723e71f205a344d75bddbe3f91f15440", async() => {
                     WriteLiteral("Orthopaedics");
                 }
                 );
